@@ -1,0 +1,47 @@
+.wrapper {
+    margin: 17%;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+form {
+    background-color: dodgerblue;
+    padding: 20px 10px;
+    border-radius: 5px;
+}
+
+input[type=text] {
+    border: none;
+    outline: none;
+    min-width: 50px;
+    height: 25px;
+    border-radius: 15px;
+    background-color: Snow;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+input[type=submit] {
+    border: none;
+    outline: none;
+    min-width: 50px;
+    height: 25px;
+    border-radius: 15px;
+    background-color: Snow;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+select {
+    border: none;
+    outline: none;
+    min-width: 25px;
+    height: 25px;
+    border-radius: 15px;
+    background-color: Snow;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
